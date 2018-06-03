@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加页面</title>
+<style type="text/css">
+	.myContr{
+		width: 160px;
+		margin-top: 10px;
+	}
+</style>
+</head>
+<body>
+	<div style="width:350px; margin: 20px auto;">
+		<div><span>请选择分配办公室：</span>
+			<select id="useOffice" class="myContr">
+				<option value="A办公室">A办公室</option>
+				<option value="B办公室">B办公室</option>
+				<option value="C办公室">C办公室</option>
+				<option value="D办公室">D办公室</option>
+				<option value="E办公室">E办公室</option>
+			</select>
+		</div>
+		<div style="width:15%; margin: 20px auto;"><input type="button" value="保存" onclick="save()" ></div>
+	</div>
+</body>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/allot.js"></script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>添加页面</title>
+<style type="text/css">
+	.myContr{
+		width: 160px;
+		margin-top: 10px;
+	}
+</style>
+</head>
+<body>
+	<div style="width:250px; margin: 20px auto;">
+		<div><span>颜色：</span>
+			<select id="color" class="myContr">
+				<option value="白色">白色</option>
+				<option value="黑色">黑色</option>
+			</select>
+		</div>
+		<div><span>尺寸：</span>
+			<select id="size" class="myContr">
+				<option value="120">120</option>
+				<option value="120">160</option>
+			</select>
+			<span>cm</span></div>
+		<div><span>价格：</span><input id="price" class="myContr" type="text"></div>
+		<div style="width:15%; margin: 20px auto;"><input type="button" value="保存" onclick="save()" ></div>
+	</div>
+</body>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/add.js"></script>
+</html>
